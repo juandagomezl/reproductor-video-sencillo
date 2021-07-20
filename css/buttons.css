@@ -1,0 +1,28 @@
+.button{
+   border: none;
+   inline-size: 32px;
+   block-size: 32px;
+   background-color: transparent;
+   cursor: pointer;
+}
+
+.button:active{
+   transform: scale(.75);
+}
+
+#play{
+   background-image: url('../imagenes/play.svg');
+
+}
+
+#pause{
+   background-image: url('../imagenes/pause.svg');
+}
+
+#backward{
+   background-image: url('../imagenes/-10.svg');
+}
+
+#forward{
+   background-image: url('../imagenes/+10.svg');
+}
